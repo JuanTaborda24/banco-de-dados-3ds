@@ -27,7 +27,7 @@ CREATE TABLE Products (
     FOREIGN KEY (CategoryID) REFERENCES CategoryProduct(CategoryID)
 );
 
-CREATE TABLE CategoryProduct (
+CREATE TABLE CategoryProducts (
     CategoryID INTEGER PRIMARY KEY,
     CategoryName TEXT NOT NULL,
     Description TEXT
@@ -77,4 +77,4 @@ CREATE TABLE Shippers (
 );
 
 -- Consulta uma tabela do BD 
-SELECT * from CategoryProduct;
+SELECT * from CategoryProducts;
