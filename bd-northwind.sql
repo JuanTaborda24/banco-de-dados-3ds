@@ -3,7 +3,7 @@
 -- USE Northwind;
 
 -- Apaga tabela demonstratva do editor SQLite Online
--- DROP TABLE demo;
+DROP TABLE demo;
 
 CREATE TABLE Suppliers (
     SupplierID INTEGER PRIMARY KEY,
