@@ -27,7 +27,7 @@ CREATE TABLE Products (
     FOREIGN KEY (CategoryID) REFERENCES CategoryProduct(CategoryID)
 );
 
-CREATE TABLE Categories (
+CREATE TABLE CategoryProduct (
     CategoryID INTEGER PRIMARY KEY,
     CategoryName TEXT NOT NULL,
     Description TEXT
@@ -76,8 +76,5 @@ CREATE TABLE Shippers (
     Phone TEXT
 );
 
--- Altera nome de tabela Category para CategoryProduct 
-ALTER TABLE Categories RENAME TO CategoryProduct;
-
--- Consulta a tabela renomeada 
+-- Consulta uma tabela do BD 
 SELECT * from CategoryProduct;
