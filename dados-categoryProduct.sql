@@ -1,4 +1,7 @@
--- Inicia transação de inserir dados na tabela CategoryProduct
+-- Inicia transação de inserir dados na tabela 
+BEGIN TRANSACTION; 
+
+-- Insere dados na tabela CategoryProducts
 INSERT INTO CategoryProduct VALUES(1,'Beverages','Soft drinks, coffees, teas, beers, and ales');
 INSERT INTO CategoryProduct VALUES(2,'Condiments','Sweet and savory sauces, relishes, spreads, and seasonings');
 INSERT INTO CategoryProduct VALUES(3,'Confections','Desserts, candies, and sweet breads');
