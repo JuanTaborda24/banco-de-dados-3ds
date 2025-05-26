@@ -94,8 +94,6 @@ INSERT INTO Customers VALUES(89,'White Clover Markets','Karl Jablonski','305 - 1
 INSERT INTO Customers VALUES(90,'Wilman Kala','Matti Karttunen','Keskuskatu 45','Helsinki','21240','Finland');
 INSERT INTO Customers VALUES(91,'Wolski','Zbyszek','ul. Filtrowa 68','Walla','01-012','Poland');
 
-
-
 -- Encerra a transação e salva os dados com segurança
 COMMIT;
 
