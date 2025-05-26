@@ -65,9 +65,11 @@ CREATE TABLE OrderDetails (
 
 CREATE TABLE Employees (
     EmployeeID INTEGER PRIMARY KEY,
-    LastName TEXT NOT NULL,
-    FirstName TEXT NOT NULL,
-    BirthDate DATETIME
+    LastName VARCHAR(15),
+    FirstName VARCHAR(15),
+    BirthDate DATETIME,
+    Photo VARCHAR(25),
+    Notes VARCHAR(1024)
 );
 
 CREATE TABLE Shippers (
