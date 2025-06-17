@@ -1,5 +1,5 @@
 -- Inicia transação de inserir dados na tabela no editor SQLite Online
-BEGIN TRANSACTION; 
+-- BEGIN TRANSACTION; 
 
 INSERT INTO CategoryProducts VALUES(1,'Beverages','Soft drinks, coffees, teas, beers, and ales');
 INSERT INTO CategoryProducts VALUES(2,'Condiments','Sweet and savory sauces, relishes, spreads, and seasonings');
@@ -941,4 +941,4 @@ INSERT INTO OrderDetails VALUES(516,10442,66,60);
 INSERT INTO OrderDetails VALUES(517,10443,11,6);
 INSERT INTO OrderDetails VALUES(518,10443,28,12);
 
-COMMIT;
+-- COMMIT;
